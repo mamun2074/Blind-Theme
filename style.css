@@ -1,0 +1,197 @@
+/*
+   Theme Name:Blind theme
+   Theme URI:https://gitlab.com/mamun2074/Blind-theme
+   Author:Md.Al-Mahmud
+   Author URI:https://gitlab.com/mamun2074/Blind-theme
+   Version:v1.0
+   Description:Nice blog theme,Fully responsive and user friendly
+   Tag:Blog,WordPress theme,Responsive
+
+*/
+
+#wpadminbar {
+    top: 630px;
+}
+
+.blog-post img {
+    height: 350px;
+}
+
+.nav-links ul li span.current {
+    color: #70B6EF;
+    font-weight: bold;
+}
+
+/*sidebar*/
+
+.widget ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.widget ul li {
+    list-style: none;
+    border-bottom: 1px dotted #d1d1d1;
+    margin-bottom: 10px;
+}
+
+.widget ul li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+.widget ul li a:hover {
+    color: #70B6EF;
+}
+
+/* widget tag cloud*/
+
+.tagcloud a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    padding: 9px 20px;
+    color: #ffffff;
+    background: #222222;
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    height: 40px;
+    width: 30%;
+    text-align: center !important;
+    margin-bottom: 5px;
+}
+
+.tagcloud a:hover {
+    background-color: #70B6EF;
+    color: white;
+}
+
+/*footer widget*/
+.footer-widget .tagcloud a {
+    border: 1px solid white;
+    height: 35px;
+}
+
+/*flicker*/
+.flickr li a img {
+    width: 80px;
+    height: 80px;
+}
+
+/*current menu item mark*/
+
+li.current-menu-item a {
+    color: #70B6EF !important;
+}
+
+/*Blog section*/
+/*
+.blog-section{
+    padding: 0px;
+}
+*/
+
+/*
+Custom post type
+*/
+
+.services-post img {
+
+    height: 300px;
+}
+
+/*home service section*/
+.services-project img {
+    height: 150px;
+}
+
+.services-project:nth-child(2).services-project img {
+    height: 302px;
+}
+
+/*  Latest post in home page*/
+
+.owl-item .news-post img {
+    height: 280px !important;
+}
+
+/*Project home page design*/
+.project-home .project-post img {
+    height: 225px;
+}
+
+.project-home .project-post:nth-child(2) img {
+    height: 450px;
+}
+
+.project-home .project-post:nth-child(6) img {
+    width: 900px;
+}
+
+/*Home about section*/
+.about-section img {
+    height: 266px;
+}
+
+/*Clint logo list*/
+
+.client-list li {
+    float: left;
+    width: 25%;
+    list-style: none;
+}
+
+.client-list li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 100%;
+    opacity: 1;
+    padding: 10px 20px;
+    border: 1px solid #e1e1e1;
+    border-left: none;
+    border-top: none;
+}
+
+.client-list li a img {
+    width: 100%;
+    height: 100px;
+
+
+}
+
+/*Custom clas*/
+
+.template_custom_class .project-post img{
+    height: 300px;
+}
+
+/*Our team section*/
+.custom_image_cliant img{
+    height: 200px;
+}
+
+
+
+
+
+
